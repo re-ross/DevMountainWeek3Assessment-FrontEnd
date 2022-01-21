@@ -38,3 +38,12 @@ img {
 ol {
   padding-left: 2em;
 }
+
+.favButtons {
+  background-color: yellow;
+  border-color: black;
+  border-radius: 25px;
+  height: 75px;
+  width: 300px;
+  font-weight: 800;
+}

@@ -13,3 +13,13 @@ myFavPlace.addEventListener("click", () => {
 myFavRitual.addEventListener("click", () => {
   alert("My favorite ritual is making a chemex of coffee every morning!");
 });
+
+function handleSubmit(evt) {
+  evt.preventDefault();
+
+  alert("Sucessfully subscribed!");
+}
+
+let form = document.querySelector("form#subscribe");
+
+form.addEventListener("submit", handleSubmit);

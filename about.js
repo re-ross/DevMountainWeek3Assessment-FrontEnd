@@ -1,4 +1,4 @@
-console.log("hello world");
+// console.log("hello world");
 
 function handleSubmit(evt) {
   evt.preventDefault();
@@ -13,6 +13,7 @@ form.addEventListener("submit", handleSubmit);
 const alertUser = () => {
   alert("Lookin' good today ;)");
 };
+
 let catPhoto = document.querySelector("img");
 
 catPhoto.addEventListener("mouseover", function () {
