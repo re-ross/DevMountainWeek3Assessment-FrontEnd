@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Homepage</title>
-	<link href="styles.css" rel="stylesheet">
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
 
-</head>
-<body>
-	<nav>
-		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-	    </ol>
-	</nav>
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <p>Hello, world!</p>
+      <img
+        src="https://images.unsplash.com/photo-1591871937573-74dbba515c4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80"
+      />
+      <p>This cute kitten ^ welcomes you to our website!</p>
+      <ul>
+        <li>The kitten thinks you're very dapper.</li>
+        <li>The kitten also believes you tell a great joke.</li>
+        <li>Kitten wants to mention you rock as a programmer.</li>
+      </ul>
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
 
-	<content>
-		<h1>Welcome to this little website.</h1>
-		<!-- insert hello world here -->
+        Message:
+        <input type="textarea" />
+        How'd you hear about us:
+        <input type="textarea" />
+        <input type="checkbox" value="Google" />
+        <label for="vehicle1"> Google</label><br />
+        <input type="checkbox" value="friend" />
+        <label for="vehicle2"> A Friend</label><br />
+        <input type="checkbox" value="other" />
+        <label for="vehicle3"> Other</label><br /><br />
 
-		<img src="https://pbs.twimg.com/profile_images/1267905793610772480/rks7KARB_400x400.jpg">
+        <input type="submit" />
+      </form>
+    </content>
 
-		<h2>Contact Us</h2>
-		<form id="contact">
-			Your name:
-			<input type="text">
-
-			Message:
-			<input type="textarea">
-
-			<input type="submit">
-
-
-		</form>
-
-	</content>
-
-
-	<script src="about.js"></script>
-
-</body>
+    <script src="about.js"></script>
+  </body>
 </html>
