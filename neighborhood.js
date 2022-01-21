@@ -6,9 +6,10 @@ recButton.addEventListener("click", () => {
     `Harvey B's`,
     `Jimmy's Food Store`,
     "Aca Las Tortas",
-    "Cook Your Own Food",
+    `Lucky's Hot Chicken`,
+    "your own kitchen",
   ];
   let rand = restArray[(Math.random() * restArray.length) | 0];
   console.log(rand);
-  alert(rand);
+  alert(`You should eat at ` + rand + `!`);
 });
